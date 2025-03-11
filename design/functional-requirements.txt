@@ -1,0 +1,33 @@
+🌻 Daniel's Flowers 4 Less 🌻
+Daniel’s Flowers 4 Less is the go-to destination for flower lovers in the community.
+We specialize in crafting bespoke floral arrangements for every occasion.
+Located in downtown El Cajon, our boutique prides itself on offering a curated selection of fresh, seasonal bouquets for weddings, birthdays, anniversaries, and other celebrations.
+Guests can also explore an array of unique houseplants, artisanal vases, and garden accessories.
+For our online customers, the boutique provides same-day delivery to surrounding San Diego neighborhoods.
+
+
+Registered Users
+"As a registered user, I can order one or many bouquets"
+"As a registered user, I can leave custom messages for each bouquet in my order"
+"As a registered user, I choose pickup or delivery for my order"
+    *Delivery fee is $3.99 for zip codes 20000-29999
+    *Delivery fee is $5.99 for zip codes 30000-39999
+    *Zip codes 30000-39999 can add same-day delivery for $5.99
+    *Delivery to all other zip codes is $19.99
+"As a registered user, I can view and update my user profile containing my name, bio, and avatar image or URL"
+
+Anonymous Users
+"As an anonymous user, I can view a list of all the available bouquets to purchase"
+"As an anonymous user, I can view the specific details of a single bouquet"
+
+Admin Users
+"As an Admin user, I can add, update, or delete a bouquet for purchase"
+    *This includes the base price for each bouquet
+    *This includes the price for each flower
+"As an Admin user, I can view any customer order"
+    *I can search by customer name
+    *I can search by a selected date range
+"As an Admin user, I can ship an order and update any customer order"
+
+Optional
+"As a registered user, I can add, remove, and update items in my cart for future purchase"
