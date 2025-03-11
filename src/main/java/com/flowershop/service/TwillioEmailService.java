@@ -58,7 +58,7 @@ public class TwillioEmailService implements EmailService {
         Content content = new Content("text/plain", message);
         Mail mail = new Mail(from, subject, to, content);
 
-        SendGrid sg = new SendGrid(apiKey);
+        SendGrid sg = new SendGrid(this.twillioApiKey);
         Request request = new Request();
         try {
             request.setMethod(Method.POST);
