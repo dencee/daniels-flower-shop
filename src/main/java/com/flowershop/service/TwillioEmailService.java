@@ -27,9 +27,13 @@ public class TwillioEmailService implements EmailService {
     private final String ORDER_CONFIRMATION_SUBJECT = "Thank you for placing your order with Daniel's Flower Shop \uD83C\uDF3B";
     private final String twillioApiKey;
 
-    public TwillioEmailService(@Value("${TWILLIO_EMAIL_API_KEY}") String apiKey){
-        this.twillioApiKey = apiKey;
+    public TwillioEmailService() {
+        this.twillioApiKey = null;
     }
+
+    // public TwillioEmailService(@Value("${TWILLIO_EMAIL_API_KEY}") String apiKey){
+    //     this.twillioApiKey = apiKey;
+    // }
 
     /**
      *

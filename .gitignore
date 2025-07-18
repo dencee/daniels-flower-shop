@@ -43,7 +43,7 @@ node_modules
 target/
 
 *.sql
-.env
+*.env
 
 ### IntelliJ IDEA ###
 .idea
@@ -68,13 +68,14 @@ yarn-error.log*
 
 # Editor directories and files
 .idea
-.vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sw*
 *.jfm
 
+# Track for custom launch configuration settings
+#.vscode
 
 # Cypress e2e Testing
 cypress/screenshots

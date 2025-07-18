@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "maven-build-jar",
+      "type": "shell",
+      "command": "mvn clean package -DskipTests",
+      "detail": "erase /target folder and rebuild jar"
+    },
+    {
+      "label": "java-exec",
+      "type": "shell",
+      "command": "java -jar $(ls target/*.jar)",
+      "dependsOn": ["maven-build-jar"],
+    }
+  ]
+}
