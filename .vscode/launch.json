@@ -10,8 +10,8 @@
             "name": "flower-shop",
             "request": "launch",
             "mainClass": "com.flowershop.Application",
-            "console": "integratedTerminal",
-            "preLaunchTask": "java-exec"
+            "console": "integratedTerminal"
+            //"preLaunchTask": "java-exec"
         },
     ]
 }
