@@ -6,7 +6,7 @@
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
-		"ghcr.io/itsmechlark/features/postgresql:1.7.0": {}
+		"ghcr.io/itsmechlark/features/postgresql:1.8.0": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
